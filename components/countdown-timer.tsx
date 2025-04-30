@@ -25,7 +25,7 @@ export default function CountdownTimer({ timeLeft }: CountdownTimerProps) {
         isZooming ? "scale-[1.3]" : "scale-100"
       }`}
     >
-      <div className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 shadow-glow">
+      <div className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 drop-shadow-[0_0_15px_rgba(123,97,255,0.5)]">
         {timeLeft}
       </div>
     </div>
